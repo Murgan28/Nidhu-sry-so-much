@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#f7dce8" />
+<title>For Nidhu — A Little Apology</title>
+<style>
+:root{--pink:#f5bfd2;--pink2:#f9dce8;--blush:#fff0f5;--rose:#c66d91;--deep:#613d55;--plum:#56384e;--gold:#d9b77d;--cream:#fffaf7;--muted:#806477;--glass:rgba(255,255,255,.64);--line:rgba(190,112,148,.25)}
+*{box-sizing:border-box}
+button,a{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}
+button:focus{outline:none}
+button:focus-visible{outline:2px solid #c77f9e;outline-offset:4px;box-shadow:0 0 0 5px #f4cbdc88}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--deep);font-family:Georgia,"Times New Roman",serif;background:radial-gradient(ellipse at 8% 8%,#fff8fb 0,transparent 33%),radial-gradient(ellipse at 90% 24%,#f4cddd 0,transparent 36%),linear-gradient(145deg,#fff6f8,#f6dce7 48%,#f9e9e7);min-height:100vh;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.35;background-image:radial-gradient(#c8799c 1px,transparent 1px);background-size:34px 34px}
+.progress{position:fixed;z-index:30;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,#d97da5,#f3c5a0,#a889bd);box-shadow:0 0 14px #d97da588}
+.wrap{width:min(980px,calc(100% - 30px));margin:auto}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:62px 0 60px;position:relative}
+.hero-shell{width:min(800px,100%);padding:clamp(28px,6vw,65px) clamp(20px,6vw,62px);position:relative;border:1px solid #fff;border-radius:38px;background:linear-gradient(145deg,rgba(255,255,255,.82),rgba(255,241,247,.64));box-shadow:0 28px 90px #a75c7b25,inset 0 0 0 7px #fff8;backdrop-filter:blur(18px)}
+.hero-shell:before,.hero-shell:after{content:"✿";position:absolute;color:#d68eaa;font-size:25px;opacity:.7}
+.hero-shell:before{top:17px;left:23px}.hero-shell:after{bottom:17px;right:23px}
+.corner{position:absolute;width:62px;height:62px;border-color:#d79ab1;border-style:solid;opacity:.8}
+.c1{top:13px;left:13px;border-width:1px 0 0 1px;border-radius:22px 0 0}
+.c2{top:13px;right:13px;border-width:1px 1px 0 0;border-radius:0 22px 0 0}
+.c3{bottom:13px;left:13px;border-width:0 0 1px 1px;border-radius:0 0 0 22px}
+.c4{bottom:13px;right:13px;border-width:0 1px 1px 0;border-radius:0 0 22px}
+.eyebrow{letter-spacing:.28em;text-transform:uppercase;color:#b46c8b;font:10px/1.8 Arial,sans-serif}
+h1{font-size:clamp(3.5rem,12vw,7rem);font-weight:400;line-height:.95;margin:19px 0 16px;background:linear-gradient(110deg,#a75d7e,#d88dab 48%,#a68bb9);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 35px #d58eae30}
+.type-line{min-height:2.1em;color:#78566d;font-size:clamp(1.05rem,3vw,1.35rem);line-height:1.65;margin:0 auto;max-width:620px}
+.cursor{display:inline-block;width:2px;height:1.05em;background:#b46c8b;margin-left:3px;vertical-align:-.12em;animation:blink .8s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.hero-note{max-width:590px;margin:15px auto 0;color:#96788a;font-size:1rem;line-height:1.75}
+.hero-actions{display:flex;gap:11px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.btn{border:1px solid #d69ab477;color:#784e67;background:linear-gradient(135deg,#ffffffd9,#fff4f8b8);border-radius:999px;padding:13px 20px;font:600 11px Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase;cursor:pointer;transition:transform .3s,box-shadow .3s,background .3s;box-shadow:0 7px 20px #9d58761a}
+.btn:hover{transform:translateY(-4px);box-shadow:0 13px 28px #9d58762a;background:#fff}
+.btn.primary{background:linear-gradient(110deg,#d88eaa,#b980a7);border:0;color:#fff;box-shadow:0 9px 24px #b66d8e40}
+.btn.soft{background:#fff8}
+.hero-meta{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:25px}
+.pill{font:10px Arial,sans-serif;letter-spacing:.08em;color:#986c82;border:1px solid #dca9bd88;border-radius:999px;padding:8px 12px;background:#fff8}
+.scrollhint{position:absolute;bottom:19px;color:#a17b91;font:10px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase}
+.scrollhint:after{content:"↓";display:block;font-size:19px;margin-top:6px;color:#c77f9e}
+section{padding:36px 0 68px}
+.section-head{text-align:center;margin-bottom:25px}
+.kicker{font:10px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:#b36c8a}
+h2{font-size:clamp(2rem,6vw,3.25rem);font-weight:400;margin:10px 0;color:#754b65}
+.sub{color:#927487;line-height:1.75;max-width:640px;margin:0 auto}
+.card{position:relative;border:1px solid #fff;background:linear-gradient(145deg,rgba(255,255,255,.83),rgba(255,246,249,.65));border-radius:29px;padding:clamp(22px,5vw,43px);box-shadow:0 22px 65px #a75c7b1c,inset 0 0 0 5px #fff7;backdrop-filter:blur(16px)}
+.card:before{content:"";position:absolute;inset:10px;border:1px solid #e8bfd0;border-radius:21px;pointer-events:none}
+.letter{font-size:clamp(1rem,2.5vw,1.12rem);line-height:1.95;color:#694e61;white-space:pre-line;position:relative}
+.letter p{margin:0 0 19px}
+.letter .opening{font-size:1.45rem;color:#b66f8e;font-style:italic}
+.letter strong{color:#a75f7e;font-weight:400}
+.quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:22px}
+.quote{min-height:158px;border:1px solid #fff;border-radius:23px;padding:24px;background:linear-gradient(145deg,#fffafcdd,#f9e6efcc);display:flex;align-items:center;text-align:center;justify-content:center;color:#80566e;font-size:1.1rem;line-height:1.65;box-shadow:0 12px 35px #9e60731a,inset 0 0 0 4px #fff8;transition:.35s;position:relative}
+.quote:after{content:"♡";position:absolute;top:12px;right:16px;color:#d89bb3}
+.quote:hover{transform:translateY(-6px) rotate(-.5deg);box-shadow:0 18px 35px #9e60732b}
+.promise{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+.promise div{padding:21px;border:1px solid #fff;border-radius:19px;background:#fff9;color:#795b6e;line-height:1.7;box-shadow:0 9px 26px #9e607313}
+.promise b{display:block;color:#b16e8b;font-weight:400;margin-bottom:5px;font-size:1.08rem}
+.closing{text-align:center;padding:42px 25px}
+.closing .big{font-size:clamp(2.5rem,8vw,4.5rem);color:#bd7896;margin:8px 0 18px}
+.signature{color:#ad7590;font-style:italic;font-size:1.25rem}
+.mahadev-promise{position:relative;max-width:650px;margin:28px auto 27px;padding:clamp(23px,5vw,36px);border:1px solid #dba9bd;border-radius:24px;background:linear-gradient(145deg,#fff9fc,#f9e2ec 58%,#fff6ed);box-shadow:0 16px 42px #a75c7b25,inset 0 0 0 5px #fff9;overflow:hidden}
+.mahadev-promise:before,.mahadev-promise:after{content:"✿";position:absolute;color:#d69ab1;opacity:.55;font-size:25px}
+.mahadev-promise:before{top:12px;left:15px}.mahadev-promise:after{right:15px;bottom:10px}
+.promise-ornament{font:10px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#b67a91}
+.promise-heading{font-size:clamp(1.55rem,5vw,2.1rem);color:#a85f80;margin:15px 0 12px}
+.mahadev-promise p{position:relative;z-index:1;color:#75576b;font-size:clamp(1rem,2.5vw,1.12rem);line-height:1.85;margin:0 auto;max-width:560px}
+.promise-blessing{margin-top:18px;padding-top:15px;border-top:1px solid #dfb8c9;color:#a66d88;font-style:italic;line-height:1.65}
+footer{text-align:center;color:#a48194;font:10px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;padding:0 0 35px}
+.float{position:fixed;bottom:-30px;z-index:2;pointer-events:none;animation:rise 8s linear forwards;color:#d58cab;opacity:.7}
+@keyframes rise{to{transform:translateY(-115vh) rotate(35deg);opacity:0}}
+.fade{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s ease}
+.fade.visible{opacity:1;transform:none}
+#surprise{display:none;margin:22px auto 0;max-width:540px;padding:17px 22px;border-radius:18px;background:#fff9;border:1px solid #fff;color:#9a6480;line-height:1.65;box-shadow:0 10px 28px #a75c7b18}
+#surprise.show{display:block;animation:pop .45s ease both}
+@keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+.letter-modal{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(70,42,61,.48);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);opacity:0}
+.letter-modal.open{display:flex;animation:veilIn .35s ease forwards}
+.modal-panel{position:relative;width:min(850px,100%);max-height:min(88svh,900px);overflow:auto;border-radius:29px;transform:translateY(28px) scale(.96);opacity:0;box-shadow:0 30px 100px #4d263d55}
+.letter-modal.open .modal-panel{animation:letterIn .55s cubic-bezier(.2,.8,.2,1) .08s forwards}
+@keyframes veilIn{to{opacity:1}}
+@keyframes letterIn{to{transform:translateY(0) scale(1);opacity:1}}
+.modal-top{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;background:rgba(255,246,250,.94);border-bottom:1px solid #e8bfd0;backdrop-filter:blur(12px)}
+.modal-label{font:10px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#a96b87}
+.close-btn{width:38px;height:38px;border:1px solid #e2b2c6;border-radius:50%;background:#fff;color:#98617c;font-size:22px;line-height:1;cursor:pointer;display:grid;place-items:center;transition:.25s}
+.close-btn:hover{background:#f8e2eb;transform:rotate(90deg)}
+.modal-content{padding:18px;background:linear-gradient(145deg,#fff8fb,#f8e5ed)}
+.modal-content .card{padding:clamp(22px,5vw,43px)}
+body.modal-open{overflow:hidden}
+@media(max-width:650px){.quote-grid{grid-template-columns:1fr}.quote{min-height:110px}.promise{grid-template-columns:1fr}.hero{padding-top:35px}.hero-shell{border-radius:27px}.card{border-radius:23px}.hero-meta{gap:6px}.pill{font-size:9px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="hero wrap">
+ <div class="hero-shell">
+  <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+  <div class="eyebrow">A little note wrapped in love &amp; honesty</div>
+  <h1>Dear Nidhu</h1>
+  <p class="type-line"><span id="typed"></span><span class="cursor"></span></p>
+  <p class="hero-note">A small page, made with a sincere heart. Not to pressure you, but to say the things I could not express properly.</p>
+  <div class="hero-actions">
+   <button class="btn primary" id="readBtn" type="button">Open my letter ✧</button>
+   <button class="btn" id="surpriseBtn" type="button">A little surprise ♡</button>
+   <button class="btn soft" id="downloadBtn" type="button">Download my message ↓</button>
+   <button class="btn soft" id="copyBtn" type="button">Copy message</button>
+  </div>
+  <div id="surprise">“Some bonds are worth caring for gently. I want to do my part with patience, honesty and respect.” ♡</div>
+  <div class="hero-meta"><span class="pill">A sincere apology</span><span class="pill">For our bond</span><span class="pill">Made for Nidhu</span></div>
+ </div>
+ <div class="scrollhint">Scroll gently to read</div>
+</header>
+<main class="wrap">
+<section id="letter" class="fade">
+ <div class="section-head"><div class="kicker">From my heart to yours</div><h2>A sincere sorry</h2><p class="sub">Nidhu, I may not always express myself in the right way, but I want you to understand what I am trying to say.</p><button class="btn primary" id="openLetterInline" type="button">Open the letter ♡</button></div>
+ <article class="card letter" id="letterText" style="display:none">
+  <p class="opening">Plz Nidhu, I am sorry. Please don't change…</p>
+  <p>I know I am doing silly things, but yaar, I am trying to improve. I mean it when I say I am sorry. And don't worry, our moms' and Nidhu-Pavithra's bond is forever, no matter how many fights happen. Just please, Nidhu… always be the Nidhu I know. I feel sorry if I am wrong.</p>
+  <p>Sorry, Nidhu, if I am wrong. From now on, no more fights, yaar. I will improve the way I communicate with you, don't worry. I am sorry if I have hurt you so much.</p>
+  <p>I hope you reply, Nidhu. If you explain things to me softly, I will understand and feel much happier. Please don't be harsh. I know I have made mistakes, and I am genuinely sorry.</p>
+  <p>I mean, you explain everything very well. Do you remember four days ago, when we were talking late at night? You explained so many things in such a lovely tone. The way you made me understand felt really good, and I appreciated it a lot.</p>
+  <p>I know you were angry yesterday, but today's call and voice message felt a little harsh to me. That's why I wanted to tell you how I felt. I know you are not the same every day, and I am not blaming you. I am only sharing what was in my heart. I am sorry if I misunderstood you.</p>
+  <p>Everything you said was correct, and I agree with your points. I just felt a little hurt by the tone and a few words. I know I am attached to you, and I am trying to become less dependent on that attachment. I know you may move on from things quickly, while my heart takes a little more time. Because of that, I sometimes bring up the same topic again and again. I understand that it can be irritating, and I am trying very hard to improve.</p>
+  <p>About what you said—that you tell me everything—I know that, and I respect you, Nidhu. Sometimes I just get the feeling that when we are such close friends, why is something being kept from me? That is the feeling I was trying to explain. I share everything with you and don't intentionally hide things. I am sorry if I am wrong. I am not saying you have to tell me everything; I just wanted to explain how I felt.</p>
+  <p>Please trust me, Nidhu. I don't want to lie to you, and I know you do trust me. I think I got scared because your tone felt a little rude, so I typed all this. I know you have your own feelings and reasons too.</p>
+  <p>I always want to build a good career and become someone who can support and encourage you. That is what I am trying to work towards. I badly wanted to go to Tiruvannamalai, but honestly, my health is not supporting me, and my parents are not allowing me after yesterday's call.</p>
+  <p>And please, you can guide me when I am going wrong. You have that right as my sister and close friend. I am your brother, and I care about you. I want to be a genuinely good best friend to you—someone who communicates better, supports you, and shows sincere care.</p>
+  <p>Once again, I am sorry, Nidhu. I miss the way we used to talk things through calmly and lovingly. I am not asking you to forget your feelings or agree with everything I say. I only hope we can understand each other with patience and kindness.</p>
+  <p>I know we are very different—our likes, our characters, and many other things. But Mahadev brought this brother-sister bond into our lives, and I value it. At the end of everything, I want your happiness. That matters to me.</p>
+  <p class="opening">Sorry, Nidhu. I will keep trying to become better. ❤️</p>
+ </article>
+</section>
+<section class="fade">
+ <div class="section-head"><div class="kicker">A few things I hope you remember</div><h2>Little reminders</h2><p class="sub">Not promises made just to end a fight—small reminders of the care behind this message.</p></div>
+ <div class="quote-grid"><div class="quote">“A misunderstanding doesn't have to erase a meaningful bond.”</div><div class="quote">“I can learn to communicate better, one conversation at a time.”</div><div class="quote">“Your happiness matters, even when we don't agree.”</div></div>
+</section>
+<section class="fade">
+ <div class="section-head"><div class="kicker">What I want to do better</div><h2>My little promises</h2></div>
+ <div class="promise"><div><b>Listen with patience</b>I will try to understand before reacting or repeating the same point.</div><div><b>Respect your space</b>I will remember that you have your own life, feelings, and boundaries.</div><div><b>Speak more gently</b>I will work on expressing hurt without turning it into an argument.</div><div><b>Show care through actions</b>I will focus on becoming more steady, supportive, and responsible.</div></div>
+</section>
+<section class="fade">
+ <div class="card closing"><div class="kicker">For the bond I value</div><div class="big">Nidhu ♡</div><p class="sub">No pressure to reply immediately. Take your time. I just wanted to say sorry honestly, share what was in my heart, and let you know that I am trying to grow.</p><div class="mahadev-promise">
+  <div class="promise-ornament">✦ &amp;nbsp; A promise from my heart &amp;nbsp; ✦</div>
+  <div class="promise-heading">Nidhu, one promise…</div>
+  <p>I promise you, yaar, I will be there for you through your low times and your happiest moments. I will always encourage you, support you, and do my best to help you build the career and future you dream of.</p>
+  <div class="promise-blessing">With Mahadev as my witness, this promise comes from my heart. ♡</div>
+ </div>
+ <p class="signature">With care, your brother</p><button class="btn primary" id="topBtn" type="button">Back to the beginning ↑</button></div>
+</section>
+</main>
+<div class="letter-modal" id="letterModal" aria-hidden="true">
+ <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-top"><span class="modal-label" id="modalTitle">A sincere note for Nidhu</span><button class="close-btn" id="closeLetter" type="button" aria-label="Close letter">×</button></div>
+  <div class="modal-content"><article class="card letter" id="modalLetterText"></article></div>
+ </div>
+</div>
+<footer>Made with honesty, care &amp; a little hope · For Nidhu</footer>
+<script>
+//<![CDATA[
+const progress=document.getElementById('progress');
+function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%'}
+addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+const modal=document.getElementById('letterModal');
+const sourceLetter=document.getElementById('letterText');
+const modalLetter=document.getElementById('modalLetterText');
+modalLetter.innerHTML=sourceLetter.innerHTML;
+function openLetter(){modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');document.getElementById('closeLetter').focus()}
+function closeLetter(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');document.getElementById('readBtn').focus()}
+document.getElementById('readBtn').addEventListener('click',openLetter);
+document.getElementById('openLetterInline').addEventListener('click',openLetter);
+document.getElementById('closeLetter').addEventListener('click',closeLetter);
+modal.addEventListener('click',e=>{if(e.target===modal)closeLetter()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open'))closeLetter()});
+document.getElementById('topBtn').addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+document.getElementById('surpriseBtn').addEventListener('click',()=>document.getElementById('surprise').classList.toggle('show'));
+function getMessage(){return sourceLetter.innerText}
+document.getElementById('copyBtn').addEventListener('click',async()=>{const b=document.getElementById('copyBtn');try{await navigator.clipboard.writeText(getMessage());b.textContent='Copied with care ✓'}catch(e){b.textContent='Copy unavailable here'}setTimeout(()=>b.textContent='Copy message',2200)});
+document.getElementById('downloadBtn').addEventListener('click',()=>{const blob=new Blob([getMessage()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='Nidhu-a-little-apology.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+const typed=document.getElementById('typed');const lines=['I am sorry, Nidhu…','I am trying to understand and improve.','Our bond means a lot to me.'];let line=0,index=0,deleting=false;
+function typeLoop(){const current=lines[line];if(!deleting){typed.textContent=current.slice(0,++index);if(index===current.length){deleting=true;setTimeout(typeLoop,1500);return}}else{typed.textContent=current.slice(0,--index);if(index===0){deleting=false;line=(line+1)%lines.length}}setTimeout(typeLoop,deleting?38:72)}
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches)typeLoop();else typed.textContent=lines[0];
+function heart(){const el=document.createElement('span');el.className='float';el.textContent=Math.random()>.5?'♡':'✿';el.style.left=Math.random()*100+'vw';el.style.fontSize=(12+Math.random()*17)+'px';el.style.animationDuration=(7+Math.random()*5)+'s';document.body.appendChild(el);setTimeout(()=>el.remove(),12500)}
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(heart,1350);
+//]]>
+</script>
+</body>
+</html>
